@@ -15,8 +15,6 @@ jobs:
       contents: write
     name: main
     steps:
-      - run: apt-get update
-
       - run: apt-get install -y git
 
       - uses: actions/checkout@v3
